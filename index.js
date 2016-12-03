@@ -1,12 +1,12 @@
 // npm modules
-var J = require('j');
-var request = require('request');
-var emailRegex = require('email-regex');
+// var J = require('j');
+// var request = require('request');
+// var emailRegex = require('email-regex');
 
 // custom modules
-var string_utils = require('./string_utils.js');
-
-string_utils.formatAllCells( './files/rea-contacts.xlsx', string_utils.sanitizeString );
+// var string_utils = require('./string_utils.js');
+//
+// string_utils.formatAllCells( './files/rea-contacts.xlsx', string_utils.sanitizeString );
 
 
 

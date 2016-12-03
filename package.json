@@ -1,7 +1,7 @@
 {
-  "name": "email-list",
+  "name": "swiss-army",
   "version": "1.0.0",
-  "description": "Email list",
+  "description": "Swiss army",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,10 +17,14 @@
   },
   "homepage": "https://github.com/sdulaney/email-list#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
     "email-regex": "^1.0.0",
-    "google-auth-library": "^0.9.10",
-    "googleapis": "^14.2.0",
+    "express": "^4.14.0",
     "j": "^0.4.3",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0",
     "underscore": "^1.8.3"
   }
 }
